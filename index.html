@@ -1,78 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>The Secrets Within the Fox's Den - Home</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/fox.css" rel="stylesheet" type="text/css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <title>The Secrets Within the Fox's Den - Home</title>
+        <link rel="stylesheet" href="css/fox.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
     </head>
 
     <body>
-    
         <div id="wrapper">
         
-        
-            <header>
-            
-                <h1>Fox's Den</h1>
-        
+            <header class="site-header">
+                
+                <h1>The Secrets Within the Fox's Den</h1>
             </header>
         
-            <nav>
-            
-                <div class="dropdown">
-                    <button class="dropbtn">Menu</button>
-                    <div class="dropdown-content">
-                
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="assets/species.html">Different Species of Fox</a></li>
-                            <li><a href="assets/behaviour.html">Fox Diet and Behaviour</a></li>
-                            <li><a href="assets/procedures.html">What to Do When You See A Fox</a></li>
-                            <li><a href="assets/resources.html">Resources</a></li>
-                            <li><a href="assets/sources.html">Cited Sources</a></li>
-                        </ul>
+            <nav class="site-nav>
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-                    </div>
-                
-                </div>
-    
-                </nav>
-        
-            
-            <div id="content">
-            
-            
-            <h2>Welcome to the Fox's Den</h2>
-            
-            <img src="images/fox1.jpg" alt="fox" class="center"/>
-                
-            <p class="indent">Foxes are magnificent creatures. These creatures have very unique habits in the wild. This blog will dive into the secrets these creatures have.</p>
-                
-                 <ul class="customIndent">
-                     <li>Many people don't know a lot about foxes.</li>
-                     <li>Foxes are hunted for their fur; in some places, they are hunted for sport.</li>
-                     <li>However, these animals pose no threat to humans when not messed with.</li>
-                     <li>They are cousins to wolves and dogs.</li>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="assets/species.html">Different Species of Fox</a></li>
+                    <li><a href="assets/behaviour.html">Fox Diet and Behaviour</a></li>
+                    <li><a href="assets/procedures.html">What To Do When You See A Fox</a></li>
+                    <li><a href="assets/resources.html">Resources</a></li>
+                    <li><a href="assets/sources.html">Cited Sources</a></li>
                 </ul>
+            </nav>
+        
+            <main>
+                <section class="intro">
+                    <h2>Welcome to the Fox's Den</h2>
+                    <img src="images/fox1.jpg" alt="Fox in nature" class="hero-image" />
+                    <p>Foxes are magnificent creatures. They have very unique habits in the wild. This blog dives into the secrets these creatures hold.</p>
+                </section>
 
-                <img src="images/den.jpg" alt="den" class="center"/>
+                <section class="facts">
+                    <ul>
+                        <li>Many people don't know a lot about foxes.</li>
+                        <li>Foxes are hunted for their fur, and in some places, they are hunted for sport.</li>
+                        <li>However, these animals pose no threat to humans when left alone.</li>
+                        <li>They are cousins to wolves and dogs.</li>
+                    </ul>
+                </section>
+            </main>
             
-            </div>
-            
-            <footer>
-            
-            Copyright &copy; 2021 The Secrets Within the Fox's Den <br>
-                <a href="mailto:fulkersonkm54@gmail.com">Contact</a>
-            
+            <footer class="site-footer">
+                <p>&copy; 2025 The Secrets Within the Fox's Den</p>
+                <p><a href="mailto:fulkersonkm54@gmail.com">Contact</a></p>
             </footer>
         
         </div>
-    
-    </body>
-
+</body>
 </html>
